@@ -13,9 +13,9 @@
 </head>
 
 <body>
-
+<div class="container1">
     <!-- NAVIGATION BAR -->
-    <div class="outlin">
+    <div class="nav-container">
         <div class="nav">
             <h1 class="nav-title">Dojonary</h1>
             <form class="search">
@@ -23,51 +23,50 @@
             </form>
             <button onclick="logout(this)" class="btn">Login</button>
         </div>
-
-
+    </div>
+    <div class="layout">
         <!-- Pronounciation boxes -->
-        <div class="layout">
-            <div>
-                <div class="container">
-                    <div class="box">
-                        <div>
-                            <h1>ninja</h1>
-                            <h4> noun</h4>
-                            <p>Plural: <span style="font-style:italic"> ninjas </span></p>
-                            <button onclick="alert('Ninja was liked!! :)'); liked2(this)" class="btn2">0 Likes</button>
-                        </div>
-                        <p> A practitioner skilled in the <span class="link">Japanese</span> art of <span
-                                class="link">ninjutsu</span> </p>
+
+        <div class="flex2">
+            <div class="container">
+                <div class="box">
+                    <div>
+                        <h1>ninja</h1>
+                        <h4> noun</h4>
+                        <p>Plural: <span style="font-style:italic"> ninjas </span></p>
+                        <button onclick="alert('Ninja was liked!! :)'); liked2(this)" class="btn2">0 Likes</button>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="box">
-                        <div>
-                            <h1>ninja</h1>
-                            <h4> noun</h4>
-                            <p>Plural: <span style="font-style:italic"> ninjas </span></p>
-                            <button onclick="alert('Ninja was liked!! :)'); liked(this)" class="btn2">99 Likes</button>
-                        </div>
-                        <p> A practitioner skilled in the <span class="link">Japanese</span> art of <span
-                                class="link">ninjutsu</span> </p>
-                    </div>
+                    <p> A practitioner skilled in the <span class="link">Japanese</span> art of <span
+                            class="link">ninjutsu</span> </p>
                 </div>
             </div>
+            <div class="container">
+                <div class="box">
+                    <div>
+                        <h1>ninja</h1>
+                        <h4> noun</h4>
+                        <p>Plural: <span style="font-style:italic"> ninjas </span></p>
+                        <button onclick="alert('Ninja was liked!! :)'); liked(this)" class="btn2">99 Likes</button>
+                    </div>
+                    <p> A <span class="link">programmer</span> who breaks down problems with <span
+                            class="link">zen</span>-like focus. </p>
+                </div>
+            </div>
+        </div>
 
-            <!-- DEFINITION  -->
-            <div>
-                <div class="container">
-                    <div class="box">
-                        <div>
-                            <h2>Dojonary is defined by <span style="font-weight: bold;">YOU</span></h2>
-                            <button onclick="remove(this)" class="btn3">Add Definition</button>
-                        </div>
+        <!-- DEFINITION  -->
+        <div class="flex1">
+            <div class="container">
+                <div class="box">
+                    <div>
+                        <h2>Dojonary is defined by <span style="font-weight: bold;">YOU</span></h2>
+                        <button onclick="remove(this)" class="btn3">Add Definition</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
     <script src="script.js"></script>
 
 </body>
