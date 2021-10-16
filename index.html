@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <div class="outlin">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <form class="search">
+                <input type="text" placeholder="Search the dojo..." name="search">
+            </form>
+            <button onclick="logout(this)" class="btn">Login</button>
+        </div>
+
+
+        <!-- Pronounciation boxes -->
+        <div class="layout">
+            <div>
+                <div class="container">
+                    <div class="box">
+                        <div>
+                            <h1>ninja</h1>
+                            <h4> noun</h4>
+                            <p>Plural: <span style="font-style:italic"> ninjas </span></p>
+                            <button onclick="alert('Ninja was liked!! :)'); liked2(this)" class="btn2">0 Likes</button>
+                        </div>
+                        <p> A practitioner skilled in the <span class="link">Japanese</span> art of <span
+                                class="link">ninjutsu</span> </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box">
+                        <div>
+                            <h1>ninja</h1>
+                            <h4> noun</h4>
+                            <p>Plural: <span style="font-style:italic"> ninjas </span></p>
+                            <button onclick="alert('Ninja was liked!! :)'); liked(this)" class="btn2">99 Likes</button>
+                        </div>
+                        <p> A practitioner skilled in the <span class="link">Japanese</span> art of <span
+                                class="link">ninjutsu</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DEFINITION  -->
+            <div>
+                <div class="container">
+                    <div class="box">
+                        <div>
+                            <h2>Dojonary is defined by <span style="font-weight: bold;">YOU</span></h2>
+                            <button onclick="remove(this)" class="btn3">Add Definition</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

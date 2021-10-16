@@ -1,0 +1,114 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.layout {
+    display: flex;
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+h1, h4, p, h2 {
+    padding-bottom: 15px;
+}
+
+h4 {
+    font-style: italic;
+}
+
+
+/* NAVIGATION */
+.nav {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    height: 40px;
+    padding: 8px 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.btn {
+    background-color: rgb(3, 104, 187);
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: 2px solid rgb(170, 0, 0);
+    box-shadow: 2px 4px 5px rgb(151, 0, 0);
+    cursor: pointer;
+}
+
+.btn:hover,.btn2:hover, .btn3:hover {
+    background-color: rgb(221, 14, 14);
+}
+
+.search input[type=text] {
+    width: 200px;
+    padding: 5px;
+    order: 1px solid grey;
+    background: #f1f1f1;
+}
+
+
+/* Container and Boxes */
+.outlin {
+    display: inline-block;
+}
+
+.container {
+    gap: 20px;
+    color: crimson;
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    margin-bottom: 25px;
+    padding: 20px;
+    min-height: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.box {   
+    text-align: center;
+    display: contents;
+}
+
+
+/* Buttons */
+.btn2 {
+    background-color: rgb(6, 78, 172);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(170, 0, 0);
+    box-shadow: 2px 4px 5px rgb(151, 0, 0);
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(122, 3, 126);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 150px;
+    border: 2px solid rgb(170, 0, 0);
+    box-shadow: 2px 4px 5px rgb(151, 0, 0);
+    cursor: pointer;
+}
+
+/* link text  */
+.link {
+    color: cornflowerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
